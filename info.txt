@@ -213,9 +213,9 @@ SELECT * FROM appartamenti ORDER BY metri_quadri DESC;
 
 -------------------------------CALCOLA LA MEDIA DEI METRI_QUADRI----------------------
 
-  SELECT metri_quadri, AVG(metri_quadri) AS media_metriquadri
+  SELECT AVG(metri_quadri) AS media_metriquadri
     FROM appartamenti
-    GROUP BY metri_quadri;
+    
 
 -------------------------------AGGIORNAMENTO DI UN DATO (METRI_QUADRI)----------------------
 
