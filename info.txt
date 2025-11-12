@@ -191,7 +191,7 @@ VALUES (1, 'terra', 85, 'Marco'),
        
 
 
--------------------------------MOSTRARE TUTTI I PRODOTTI---------------------------
+-------------------------------MOSTRARE TUTTI GLI APPARTAMENTI---------------------------
 
 SELECT * FROM appartamenti;
 
