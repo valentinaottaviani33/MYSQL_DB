@@ -201,7 +201,7 @@ SELECT * FROM `appartamenti` WHERE piano = 'secondo';
 
 -------------------------------MOSTRARE GLI APPARTAMENTI CON PIU DI 80MQ2----------------------
 
-SELECT interno, piano, metri_quadri, proprietario FROM appartamenti WHERE metri_quadri > 80;
+SELECT * FROM 'appartamenti' WHERE metri_quadri > 80;
 
 -------------------------------MOSTRARE SOLO INTERNO E PROPRIETARIO----------------------
 
